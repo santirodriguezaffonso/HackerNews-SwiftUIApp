@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A2F0AD092811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD082811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift */; };
-		A2F0AD0B2811EBB2009AC66C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD0A2811EBB2009AC66C /* ContentView.swift */; };
+		A2F0AD0B2811EBB2009AC66C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD0A2811EBB2009AC66C /* MainView.swift */; };
 		A2F0AD0D2811EBB7009AC66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F0AD0C2811EBB7009AC66C /* Assets.xcassets */; };
 		A2F0AD102811EBB7009AC66C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F0AD0F2811EBB7009AC66C /* Preview Assets.xcassets */; };
 		A2F0AD182811F932009AC66C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD172811F932009AC66C /* NetworkManager.swift */; };
 		A2F0AD1B28120676009AC66C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD1A28120676009AC66C /* PostData.swift */; };
+		A2F0AD1E2813472E009AC66C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0AD1D2813472E009AC66C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2F0AD052811EBB2009AC66C /* HackerNews-SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerNews-SwiftUIApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0AD082811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNews_SwiftUIAppApp.swift; sourceTree = "<group>"; };
-		A2F0AD0A2811EBB2009AC66C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2F0AD0A2811EBB2009AC66C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A2F0AD0C2811EBB7009AC66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F0AD0F2811EBB7009AC66C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2F0AD172811F932009AC66C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A2F0AD1A28120676009AC66C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A2F0AD1D2813472E009AC66C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F0AD162811F90E009AC66C /* Models */,
-				A2F0AD0A2811EBB2009AC66C /* ContentView.swift */,
+				A2F0AD1C28134710009AC66C /* Views */,
 				A2F0AD082811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift */,
 				A2F0AD0C2811EBB7009AC66C /* Assets.xcassets */,
 				A2F0AD0E2811EBB7009AC66C /* Preview Content */,
@@ -79,6 +81,15 @@
 				A2F0AD1A28120676009AC66C /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A2F0AD1C28134710009AC66C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0AD0A2811EBB2009AC66C /* MainView.swift */,
+				A2F0AD1D2813472E009AC66C /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +164,8 @@
 			files = (
 				A2F0AD182811F932009AC66C /* NetworkManager.swift in Sources */,
 				A2F0AD1B28120676009AC66C /* PostData.swift in Sources */,
-				A2F0AD0B2811EBB2009AC66C /* ContentView.swift in Sources */,
+				A2F0AD0B2811EBB2009AC66C /* MainView.swift in Sources */,
+				A2F0AD1E2813472E009AC66C /* DetailView.swift in Sources */,
 				A2F0AD092811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
