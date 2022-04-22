@@ -16,7 +16,7 @@ struct Post: Codable, Identifiable {
         return objectID
     }
     let title: String
-    let url: String
+    let url: String?
     let points: Int
     let objectID: String
 }
