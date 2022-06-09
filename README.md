@@ -8,8 +8,9 @@
 HackerNews is a List App (TableView in UIKit) that shows the new entry posts of Hacker News web site consuming an API from https://hn.algolia.com/api. A 2nd module shows the details about each post using WKWebView.
 
 ## App Demo
- *gif formar sacrifices some visual app smoothness quality.
-
+ *gif format sacrifices some visual app smoothness quality.
+ 
+![HN gif - 1](https://user-images.githubusercontent.com/100100565/172875152-f4e3034c-8e48-46c6-ad48-b803c2e173c4.gif)
 
 
 ## Code Highlights
