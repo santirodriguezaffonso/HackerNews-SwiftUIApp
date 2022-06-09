@@ -40,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A210BBA2285230ED00A4EF5A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0AD172811F932009AC66C /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		A2F0ACFC2811EBB2009AC66C = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +67,10 @@
 		A2F0AD072811EBB2009AC66C /* HackerNews-SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				A2F0AD082811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift */,
+				A210BBA2285230ED00A4EF5A /* Networking */,
 				A2F0AD162811F90E009AC66C /* Models */,
 				A2F0AD1C28134710009AC66C /* Views */,
-				A2F0AD082811EBB2009AC66C /* HackerNews_SwiftUIAppApp.swift */,
 				A2F0AD0C2811EBB7009AC66C /* Assets.xcassets */,
 				A2F0AD0E2811EBB7009AC66C /* Preview Content */,
 			);
@@ -79,7 +88,6 @@
 		A2F0AD162811F90E009AC66C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A2F0AD172811F932009AC66C /* NetworkManager.swift */,
 				A2F0AD1A28120676009AC66C /* PostData.swift */,
 			);
 			path = Models;
