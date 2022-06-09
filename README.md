@@ -5,8 +5,7 @@
 ![Platform](https://img.shields.io/badge/plataform-iOS-white)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-santiagorodriguezaffonso-blue)](https://www.linkedin.com/in/santiagorodriguezaffonso/)
 
-HackerNews is a List App (TableView in UIKit) that shows the new entry post of Hacker News web site consuming an API from https://hn.algolia.com/api.
-At the same time have a 2nd module to see every post using WKWebView.
+HackerNews is a List App (TableView in UIKit) that shows the new entry posts of Hacker News web site consuming an API from https://hn.algolia.com/api. A 2nd module shows the details about each post using WKWebView.
 
 ## App Demo
  *gif formar sacrifices some visual app smoothness quality.
