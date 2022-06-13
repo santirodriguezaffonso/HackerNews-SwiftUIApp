@@ -20,6 +20,6 @@ HackerNews is a List App (TableView in UIKit) that shows the new entry posts of 
 - Networking
 - WKWebView (from UIKit)
 
->Check my other training applications! [myportfolio](https://temporal-ursinia-346.notion.site/App-Portfolio-ea7f8e9bdac84c2c81541781a1e92668)
+>Check my other training applications! [myportfolio](https://bit.ly/3zzcQOl)
 
 ![Final Image](https://user-images.githubusercontent.com/100100565/172270362-2ff7b9f2-9678-458d-ac36-f5e4f3f7a772.png)
