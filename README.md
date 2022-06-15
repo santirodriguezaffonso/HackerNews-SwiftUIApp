@@ -16,8 +16,10 @@ HackerNews is a List App (TableView in UIKit) that shows the new entry posts of 
 ## Code Highlights
 
 - SwiftUI framework
+- Modular App
 - ListView
-- Networking
+- Identifiable protocol
+- API REST
 - WKWebView (from UIKit)
 
 >Check my other training applications! [myportfolio](https://santiagorodriguezaffonso.notion.site/App-Portfolio-ea7f8e9bdac84c2c81541781a1e92668)
